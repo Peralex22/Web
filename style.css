@@ -46,6 +46,7 @@ body {
     width: 100px;
     height: 100px;
     margin: 0 auto;
+    
 }
 
 .user-image img {
@@ -102,16 +103,16 @@ body {
     border-radius: 15%;
 }
 
-.instagram {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+.linkedin {
+    background-color: #104b72;
 }
 
-.youtube {
-    background-color: #ff0000;
+.github {
+    background-color: #3b3434;
 }
 
 .twitter {
-    background-color: #1D9BF0;
+    background-color: #d11515;
 }
 
 .social-item i {
