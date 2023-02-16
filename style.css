@@ -14,7 +14,8 @@ body {
     justify-content: center;
     padding: 1rem;
     align-items: center;
-    background-color: rgb(237, 233, 224);
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(118,118,133,1) 69%, rgba(250,254,255,1) 100%);
 }
 
 .card-container {
@@ -75,10 +76,12 @@ body {
     border-radius: 2rem;
     font-size: 1rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .hire-me:hover {
     background: radial-gradient(circle at 100% 107%, #fdf497 0%, #fdf497 5%#fd5949 45%, #d6249f 60%, #285aeb 90%);
+    text-decoration: none;
 
 }
 
@@ -87,6 +90,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
 .social-item {
@@ -105,14 +109,15 @@ body {
 
 .linkedin {
     background-color: #104b72;
+    
+}
+
+.web {
+    background-color: #af6c8b;
 }
 
 .github {
-    background-color: #3b3434;
-}
-
-.twitter {
-    background-color: #d11515;
+    background-color: #5e5757;
 }
 
 .social-item i {
@@ -121,4 +126,8 @@ body {
 
 .social-item span {
     margin-top: .5rem;
+}
+a{
+    text-decoration:none;
+    text-decoration-color: black;  
 }
